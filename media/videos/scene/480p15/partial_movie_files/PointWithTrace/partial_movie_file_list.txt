@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/PointWithTrace/1185818338_2688801140_2869406106.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/PointWithTrace/624642324_1733944848_3897115141.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/PointWithTrace/624642324_3323307842_1101391572.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/PointWithTrace/624642324_3093073246_2207689976.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/PointWithTrace/624642324_1733944848_2648008866.mp4'

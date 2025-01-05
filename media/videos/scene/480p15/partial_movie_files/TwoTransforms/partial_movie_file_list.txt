@@ -1,8 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/1185818338_3094853330_4272345035.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/624642324_337522304_2091123608.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/624642324_1197305343_3652047321.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/624642324_2569161387_1756758052.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/624642324_3965967767_4012518851.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/624642324_377178549_2914292925.mp4'
-file 'file:/home/dhruft/Manim/ReciprocalLattice/media/videos/scene/480p15/partial_movie_files/TwoTransforms/624642324_1197305343_2506660427.mp4'
