@@ -1,0 +1,486 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.28.0" title="Shotcut version 24.11.17" producer="main_bin">
+  <profile description="automatic" width="854" height="480" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="427" display_aspect_den="240" frame_rate_num="15" frame_rate_den="1" colorspace="601"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:23.600">
+    <property name="length">00:01:23.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:23.600"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Frame1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-12-22T22:42:32</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">d5f6529cac20cddb418fa0274f91fb05</property>
+    <property name="shotcut:caption">Frame1.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain0" title="Shotcut version 24.11.17" out="00:00:08.067">
+    <property name="length">00:00:08.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dhruft/Documents/ReciprocalLattice - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">15</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">854</property>
+    <property name="meta.media.0.codec.height">480</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2131461</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.100 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+    <property name="meta.attr.comment.markup">Rendered with Manim Community v0.18.1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2024-12-22T20:33:13</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">15</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:hash">599b88c9ad96cf7171230d64f3d93f58</property>
+    <property name="shotcut:caption">ReciprocalLattice - Converted.mp4</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+  </chain>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Frame2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-12-22T22:45:46</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8d88f7481bf73eb9acbf9303002991c4</property>
+    <property name="shotcut:caption">Frame2.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain1" title="Shotcut version 24.11.17" out="00:00:08.067">
+    <property name="length">00:00:08.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dhruft/Documents/ReciprocalLattice - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">15</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">854</property>
+    <property name="meta.media.0.codec.height">480</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2131461</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.100 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+    <property name="meta.attr.comment.markup">Rendered with Manim Community v0.18.1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2024-12-22T20:33:13</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">15</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:hash">599b88c9ad96cf7171230d64f3d93f58</property>
+    <property name="shotcut:caption">ReciprocalLattice - Converted.mp4</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+  </chain>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Frame3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-12-22T22:53:47</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">ed9df46a5a8cccba92b518657a17d0f6</property>
+    <property name="shotcut:caption">Frame3.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain2" title="Shotcut version 24.11.17" out="00:00:08.067">
+    <property name="length">00:00:08.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dhruft/Documents/ReciprocalLattice - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">15</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">854</property>
+    <property name="meta.media.0.codec.height">480</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2131461</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.100 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+    <property name="meta.attr.comment.markup">Rendered with Manim Community v0.18.1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2024-12-22T20:33:13</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">15</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:hash">599b88c9ad96cf7171230d64f3d93f58</property>
+    <property name="shotcut:caption">ReciprocalLattice - Converted.mp4</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+  </chain>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Frame4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-12-22T22:57:54</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">84e726eff81eb0d5115039e5c1eaa68e</property>
+    <property name="shotcut:caption">Frame4.png</property>
+  </producer>
+  <chain id="chain3" title="Shotcut version 24.11.17" out="00:00:08.067">
+    <property name="length">00:00:08.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dhruft/Documents/ReciprocalLattice - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">15</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">854</property>
+    <property name="meta.media.0.codec.height">480</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2131461</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.100 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+    <property name="meta.attr.comment.markup">Rendered with Manim Community v0.18.1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2024-12-22T20:33:13</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">15</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:hash">599b88c9ad96cf7171230d64f3d93f58</property>
+    <property name="shotcut:caption">ReciprocalLattice - Converted.mp4</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+  </chain>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Frame5.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-12-22T22:58:25</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">329c90db6f4903ae8b465066a9bc87b2</property>
+    <property name="shotcut:caption">Frame5.png</property>
+  </producer>
+  <chain id="chain4" title="Shotcut version 24.11.17" out="00:00:08.067">
+    <property name="length">00:00:08.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dhruft/Documents/ReciprocalLattice - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">15</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">854</property>
+    <property name="meta.media.0.codec.height">480</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">601</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">2131461</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc61.19.100 libx264</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+    <property name="meta.attr.comment.markup">Rendered with Manim Community v0.18.1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2024-12-22T20:33:13</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">15</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:hash">599b88c9ad96cf7171230d64f3d93f58</property>
+    <property name="shotcut:caption">ReciprocalLattice - Converted.mp4</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+  </chain>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Frame6.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">854</property>
+    <property name="meta.media.height">480</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-12-22T22:58:59</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">110dfefe89ce849c781ba432019388a7</property>
+    <property name="shotcut:caption">Frame6.png</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:08.800"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:02.067"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:10.533"/>
+    <entry producer="chain1" in="00:00:02.133" out="00:00:03.533"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:23.533"/>
+    <entry producer="chain2" in="00:00:03.600" out="00:00:04.800"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:03.067"/>
+    <entry producer="chain3" in="00:00:04.867" out="00:00:07.200"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:08.067"/>
+    <entry producer="chain4" in="00:00:07.267" out="00:00:08.067"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:21.133"/>
+  </playlist>
+  <chain id="chain5" out="00:01:26.933">
+    <property name="length">00:01:27.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Saddle River Dr 5.m4a</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.layout">mono</property>
+    <property name="meta.media.0.codec.name">aac</property>
+    <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+    <property name="meta.media.0.codec.bit_rate">64534</property>
+    <property name="meta.attr.0.stream.creation_time.markup">2024-12-22T22:33:37.000000Z</property>
+    <property name="meta.attr.0.stream.handler_name.markup">Core Media Audio</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.major_brand.markup">M4A </property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">M4A isommp42</property>
+    <property name="meta.attr.creation_time.markup">2024-12-22T22:33:37.000000Z</property>
+    <property name="meta.attr.title.markup">Saddle River Dr 5</property>
+    <property name="meta.attr.voice-memo-uuid.markup">0C051E31-D6CC-4632-8073-77BFB6DB6915</property>
+    <property name="meta.attr.encoder.markup">com.apple.VoiceMemos (iPhone Version 16.2 (Build 20C65))</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-12-22T22:33:37</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">deed1a7d49cc4d67aa596e6613126c19</property>
+    <property name="shotcut:caption">Saddle River Dr 5.m4a</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="chain5" in="00:00:03.333" out="00:01:26.933"/>
+  </playlist>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.067"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 24.11.17" in="00:00:00.000" out="00:01:23.600">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">5.01021</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <properties name="shotcut:markers"/>
+    <property name="shotcut:skipConvert">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
